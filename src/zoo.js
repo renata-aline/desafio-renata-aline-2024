@@ -1,6 +1,6 @@
 import {Bioma} from './bioma.js';
 
-[
+export const zoo = [
     {
         "id":1,
         "bioma": [Bioma.SAVANA],

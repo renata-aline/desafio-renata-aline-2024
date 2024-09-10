@@ -1,33 +1,33 @@
 import {Bioma} from './bioma.js';
 
-[
+ export const animais = [
     {
-        "espécie":"LEAO",
+        "especie":"LEAO",
         "bioma": [Bioma.SAVANA]
     },
 
     {
-        "espécie":"LEOPARDO",
+        "especie":"LEOPARDO",
         "bioma": [Bioma.SAVANA]
     },
 
     {
-        "espécie":"CROCODILO",
+        "especie":"CROCODILO",
         "bioma": [Bioma.RIO]
     },
 
     {
-        "espécie":"MACACO",
+        "especie":"MACACO",
         "bioma": [Bioma.SAVANA, Bioma.FLORESTA]
     },
 
     {
-        "espécie":"GAZELA",
+        "especie":"GAZELA",
         "bioma":  [Bioma.SAVANA]
     },
 
     {
-        "espécie":"HIPOPOTAMO",
+        "especie":"HIPOPOTAMO",
         "bioma":  [Bioma.SAVANA, Bioma.RIO]
     }
 ]

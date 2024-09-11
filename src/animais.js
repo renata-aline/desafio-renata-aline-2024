@@ -1,34 +1,46 @@
-import {Bioma} from './bioma.js';
+import { Bioma } from './bioma.js';
 
- export const animais = [
+export const animais = [
     {
-        "especie":"LEAO",
-        "bioma": [Bioma.SAVANA]
+        "especie": "LEAO",
+        "tamanho": 3,
+        "bioma": [Bioma.SAVANA],
+        "carnivoro": true,
     },
 
     {
-        "especie":"LEOPARDO",
-        "bioma": [Bioma.SAVANA]
+        "especie": "LEOPARDO",
+        "tamanho": 3,
+        "bioma": [Bioma.SAVANA],
+        "carnivoro": true
     },
 
     {
-        "especie":"CROCODILO",
-        "bioma": [Bioma.RIO]
+        "especie": "CROCODILO",
+        "tamanho": 3,
+        "bioma": [Bioma.RIO],
+        "carnivoro": true
     },
 
     {
-        "especie":"MACACO",
-        "bioma": [Bioma.SAVANA, Bioma.FLORESTA]
+        "especie": "MACACO",
+        "tamanho": 1,
+        "bioma": [Bioma.SAVANA, Bioma.FLORESTA],
+        "carnivoro": false,
     },
 
     {
-        "especie":"GAZELA",
-        "bioma":  [Bioma.SAVANA]
+        "especie": "GAZELA",
+        "tamanho": 2,
+        "bioma": [Bioma.SAVANA],
+        "carnivoro": false
     },
 
     {
-        "especie":"HIPOPOTAMO",
-        "bioma":  [Bioma.SAVANA, Bioma.RIO]
+        "especie": "HIPOPOTAMO",
+        "tamanho": 4,
+        "bioma": [Bioma.SAVANA, Bioma.RIO],
+        "carnivoro": false
     }
 ]
 
